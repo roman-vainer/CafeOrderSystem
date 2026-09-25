@@ -8,6 +8,6 @@ public class Statistic
 {
     public void Update(Oder oder)
     {
-
+        Console.WriteLine($"[Statistic Update] - {oder.Id}");
     }
 }

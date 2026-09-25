@@ -8,6 +8,6 @@ public class KitchenDisplay
 {
     public void Update(Oder oder)
     {
-
+        Console.WriteLine($"[KitchenDisplay Update] - {oder.Id}");
     }
 }
