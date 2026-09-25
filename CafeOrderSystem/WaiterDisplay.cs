@@ -8,6 +8,6 @@ public class WaiterDisplay
 {
     public void Update(Oder oder)
     {
-
+        Console.WriteLine($"[Waiter Display Update] - {oder.Id}");
     }
 }

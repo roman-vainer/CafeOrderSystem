@@ -6,6 +6,8 @@ namespace CafeOrderSystem;
 
 public class OderLogger
 {
-    public void LogOderChange(Oder oder) {
+    public void LogOderChange(Oder oder)
+    {
+        Console.WriteLine($"[OderLogger log] - {oder.Id}");
     }
 }
